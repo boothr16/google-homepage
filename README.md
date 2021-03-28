@@ -1,4 +1,4 @@
 This project is meant to introduce the following topics:
-1) Workflow management via Git
-2) Webpage structuring via HTML
-3) Webpage styling via CSS
+1) Workflow management using Git
+2) Webpage structuring using HTML
+3) Webpage styling using CSS
