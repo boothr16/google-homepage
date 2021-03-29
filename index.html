@@ -1,51 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<style>
-.topnav {
-    font-size: 14px;
-    font-family: arial, sans-serif;
-}
-.logo {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    /*relative to center of img*/
-    transform: translate(-50%, -50%);  
-}
-.searchbar {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 5px;
-}
-.buttons {
-    position: relative;
-    left: -8%;
-    padding-top: 5px;
-}
-</style>
+<html>
+    <head>
+        <!--include style.css containing class info-->
+        <link rel="stylesheet" href="style.css" media="all"> 
+        <!--heading that appears on tab-->
+        <title>Bibz Google</title>       
+    </head>
 
-</head>
-<body>
-    <title>GoogleTest</title>
-    <div class="topnav">
-        <a href="#about">About</a>
-        <a href="#store">Store</a>
-        <a style="float:right" href="#gmail">Gmail</a>
-        <a style="float:right" href="#images">Images</a>
-    </div>
-    <div class="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-        alt="Google Logo">
-    </div>
-    <div class="searchbar">
-        <input type="text" placeholder="Search...">
-        <div class="buttons">
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
+    <body>
+        <div class="flex"> <!--flex parent class to get everything to stay on page-->
+            <header>
+                <nav class="nav">
+                    <ul class="leftalign">
+                        <!--DEAD LINKS: href="#"-->
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Store</a></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-    </div>
-</body>
+    </body>
 </html>
