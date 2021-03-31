@@ -25,6 +25,9 @@ input {
     border-color: rgba(201, 202, 201, 0.973);
     border-radius: 50px;
     margin-bottom: 20px;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
 }
 /* apply to all forms */
 form {
