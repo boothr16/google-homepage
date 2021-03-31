@@ -136,6 +136,7 @@ footer {
     border: none;
     margin: none;
     cursor: pointer;
+    transform: translate(-18%, -50%);
 }
 
 .signin {
